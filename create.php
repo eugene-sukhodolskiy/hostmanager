@@ -36,7 +36,7 @@ function process(){
 	global $argv;
 	$host_name = $argv[1];
 	create_new_host($host_name);
-	echo "Host {$name} was be created\n";
+	echo "Host {$host_name} was be created\n";
 }
 
 process();
